@@ -1,0 +1,105 @@
+header{
+    display: flex;
+
+}
+/* Este es el fondo del titulo */
+#titulo-fondo{
+    background-color: rgb(255, 255, 255);
+    
+}
+#fondo-logo{
+    background-color: rgb(255, 255, 255);
+}
+
+
+footer{
+    height: 50px;
+    background-color: rgb(62, 134, 230);
+    margin-top: 20px;
+
+}
+
+#imagen-doctor{
+    border: 10px solid rgb(62, 134, 230);
+    display: inline-block;
+    margin-bottom: 10px;
+
+}
+
+#servicio {
+    color: rgb(4, 1, 10);
+    display: inline;
+    border: 10px solid rgb(62, 134, 230);
+    padding: 3px;
+    background-color: aquamarine;
+}
+
+.imagenes-container{
+    display: inline-block;
+    padding: 1px;
+    margin-top: 10px;
+    border: 10px solid rgb(62, 134, 230);
+
+}
+
+#lista-trabajos{
+    
+    text-shadow: 0px 1px 10px rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background-color: rgb(62, 134, 230);
+    
+}
+
+#nombre-doctor{
+    text-shadow: 1px 2px 10px rgb(255, 255, 255);
+
+
+}
+.boton{
+
+background-color: aquamarine;
+color: rgb(0, 0, 0);
+border-radius: 20px;
+padding: 10px;
+
+}
+
+#Banner{
+    border: 10px solid rgb(62, 134, 230);
+    background-color: rgb(62, 134, 230);
+}
+
+body {
+    background-image: url(https://png.pngtree.com/png-vector/20190228/ourmid/pngtree-tooth-dental-icon-design-template-vector-illustration-png-image_710399.jpg) ;
+    background-repeat: repeat-y repeat-x; /* Ajusta el tamaño de la imagen al tamaño de la ventana */
+    background-size: 150px 150px;
+    
+  }
+
+.numero-contacto {
+    position: absolute;
+    top: 280px;
+    right: 200px;
+    background-color: rgb(86, 201, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 10px;
+    font-size: x-large;
+
+}
+
+#numero{
+
+    position: absolute;
+    right: 50px;
+    font-size: x-large;
+
+}
+
+#logo-telefono{
+    position: absolute;
+    top: 440px;
+    right: 270px;
+    width: 80px;
+
+}

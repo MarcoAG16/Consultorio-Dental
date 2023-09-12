@@ -1,21 +1,25 @@
-header{
-    display: flex;
 
+#columnaizq{
+    margin-left: 0.5%;
 }
-/* Este es el fondo del titulo */
-#titulo-fondo{
-    background-color: rgb(255, 255, 255);
-    
+#columnader{
+    margin-right: 0.5%;
 }
+
 #fondo-logo{
     background-color: rgb(255, 255, 255);
 }
+#titulo-fondo{
+    text-align: center;
+}
+#header{
+    text-align: center;
+    margin: 1%;
+}
 
-
-footer{
-    height: 50px;
-    background-color: rgb(62, 134, 230);
-    margin-top: 20px;
+#footer{
+    margin-top: 20%;
+    height: 100px;
 
 }
 
@@ -29,7 +33,6 @@ footer{
 #servicio {
     color: rgb(4, 1, 10);
     display: inline;
-    border: 10px solid rgb(62, 134, 230);
     padding: 3px;
     background-color: aquamarine;
 }
@@ -47,7 +50,7 @@ footer{
     text-shadow: 0px 1px 10px rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     background-color: rgb(62, 134, 230);
-    
+    margin-right: 2%;
 }
 
 #nombre-doctor{
@@ -75,31 +78,3 @@ body {
     background-size: 150px 150px;
     
   }
-
-.numero-contacto {
-    position: absolute;
-    top: 280px;
-    right: 200px;
-    background-color: rgb(86, 201, 255);
-    color: rgb(0, 0, 0);
-    border-radius: 20px;
-    padding: 10px;
-    font-size: x-large;
-
-}
-
-#numero{
-
-    position: absolute;
-    right: 50px;
-    font-size: x-large;
-
-}
-
-#logo-telefono{
-    position: absolute;
-    top: 440px;
-    right: 270px;
-    width: 80px;
-
-}
